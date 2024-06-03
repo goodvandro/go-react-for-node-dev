@@ -1,4 +1,4 @@
-GET http://localhost:4000
+GET http://localhost:4000/api/todos
 
 ###
 
@@ -7,6 +7,15 @@ Host: localhost:4000
 Content-Type: application/json
 
 {
-    "completed": false,
-    "body": "My first task"
+    "body": "Leran Python"
 }
+
+###
+
+PATCH http://localhost:4000/api/todos/2 HTTP/1.1
+Host: localhost:4000
+
+###
+
+DELETE http://localhost:4000/api/todos/2 HTTP/1.1
+Host: localhost:4000
