@@ -7,7 +7,7 @@ Host: localhost:4000
 Content-Type: application/json
 
 {
-    "body": "Leran Python"
+    "body": "Leran JAVA"
 }
 
 ###
